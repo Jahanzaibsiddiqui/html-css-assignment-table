@@ -1,0 +1,550 @@
+body {
+    margin:0% ;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    width: 100%;
+    height: 20%;
+    border: 2px solid rgb(185, 176, 176);
+    display: inline-block;
+    color: white;
+    background-color: rgb(49, 49, 49);
+}
+.logo {
+    background-color: red;
+    width: 10%;
+    float: left;
+    overflow: hidden;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+    padding-right: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.nav-one {
+    float: left;
+    border: 1px solid rgb(128, 125, 125);
+    width: 8%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-top: transparent;
+    border-bottom: transparent;
+}
+.edition {
+    color: rgb(194, 194, 194);
+    font-size: 12px;
+}
+#select {
+    background-color: grey;
+    width: 70%;
+    border: transparent;
+}
+.nav-two {
+    float: left;
+    border: 1px solid rgb(128, 125, 125);
+    width: 14%;
+    padding-top: 28px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-top: transparent;
+    border-bottom: transparent;
+}
+.nav-three {
+    float: left;
+    border: 1px solid rgb(128, 125, 125);
+    width: 14%;
+    padding-top: 28px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-top: transparent;
+    border-bottom: transparent;
+}
+.nav-four {
+    float: left;
+    border: 1px solid rgb(128, 125, 125);
+    width: 14%;
+    padding-top: 28px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-top: transparent;
+    border-bottom: transparent;
+}
+.nav-five {
+    float: left;
+    border: 1px solid rgb(128, 125, 125);
+    width: 32%;
+    border-top: transparent;
+    border-bottom: transparent;
+    border-right: transparent;
+    padding-bottom: 4px;
+}
+.sign-in-box {
+    float: right;
+    padding-right: 5px;
+    padding-top: 10px;
+}
+.register {
+    border: transparent;
+    color: white;
+    background-color: transparent;
+}
+.sign-in {
+    background-color: rgb(160, 160, 160);
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+.sign-in-button {
+    border-top: transparent;
+    border-bottom: transparent;
+    border-left: transparent;
+    background-color: transparent;
+}
+img {
+    height: 20px;
+    width: 15px;
+}
+.search {
+    float: right;
+    padding: 1%;
+    background-color: white;
+    margin-top: 2%;
+    width: 90%;
+}
+.search-button {
+    color: white;
+    float: right;
+    background-color: red;
+    border: transparent;
+    border-radius: 2px;
+    padding: 1%;
+}
+#search-box{
+    border: transparent;
+}
+h1 {
+    margin-bottom: 0%;
+}
+h1+hr {
+    padding: 2px;
+    background-color: rgba(179, 177, 177, 0.658);
+    border-radius: 10px;
+    border: transparent;
+    margin-top: 0%;
+}
+.related-topics {
+    list-style: none;
+    padding-left: 20px;
+    margin-top: 0%;
+    color: rgb(0, 102, 255);
+}
+.related-topics li {
+    display: inline;
+    padding-right: 1%;
+    font-size: 12px;
+}
+#related {
+    color: grey;
+}
+.related-topics li select {
+    border: transparent;
+    font-size: 12px;
+    color: rgb(0, 102, 255);
+}
+.body {
+    width: 98%;
+    height: auto;
+    display: inline-block;
+    border: 1px solid grey;
+    margin: 0%;
+    padding: 1%;
+}
+.body-box-one {
+    height: 100%;
+    width: 66%;
+    float: left;
+    margin-top: 1%;
+}
+.body-box-one h2 {
+    font-size: 12px;
+    font-weight: 800;
+}
+.index-bar {
+    width: 100%;
+    height: 10%;
+    display: inline-block;
+    padding: 0%;
+    margin: 0%;
+}
+.index-one {
+    text-align: center;
+    float: left;
+    color: red;
+    font-size: 28px;
+    font-weight: bold;
+    border: 1px solid rgb(209, 206, 206);
+    width: 13%;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 20px;
+    border-top: transparent;
+    border-bottom: transparent;
+    border-left: transparent;
+}
+.index-bar span {
+    font-size: 22px;
+}
+.index-two {
+    float: left;
+    color: red;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid rgb(209, 206, 206);
+    width: 11%;
+    border-top: transparent;
+    border-bottom: transparent;
+    line-height: 28px;
+}
+.index-three {
+    float: left;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid rgb(209, 206, 206);
+    width: 16%;
+    border-top: transparent;
+    border-bottom: transparent;
+    line-height: 28px;
+}
+.index-four {
+    float: left;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid rgb(209, 206, 206);
+    width: 16%;
+    border-top: transparent;
+    border-bottom: transparent;
+    line-height: 28px;
+}
+.index-five {
+    float: left;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid rgb(209, 206, 206);
+    width: 16%;
+    border-top: transparent;
+    border-bottom: transparent;
+    line-height: 28px;
+}
+.index-six {
+    float: left;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 19px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid rgb(209, 206, 206);
+    width: 16%;
+    border-top: transparent;
+    border-bottom: transparent;
+    border-right: transparent;
+    line-height: 26px;
+}
+.box-one-one {
+    color: rgb(187, 185, 185); 
+    font-size: 12px;  
+}
+.body-box-one h3 {
+    font-size: 16px;   
+}
+.table-one {
+    text-align: left;
+    line-height: 40%;
+}
+.table-one td {
+    color: rgb(0, 140, 255);
+}
+h4 {
+    font-size: 14px;
+    margin-top: 8%;
+}
+.box-one-two {
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+.table-two table {
+    padding: 0%;
+    width: 100%;
+    font-size: 13px;
+    line-height: 250%;
+    border-collapse: collapse;
+}
+.commodity-heading {
+    text-align: left
+}
+.commodity {
+    color: rgb(0, 119, 255);
+}
+.change, .per-change, .trade {
+    text-align: right;
+}
+.table-two td {
+    background-image: linear-gradient(rgba(128, 128, 128, 0.295), white) ;
+}
+.body-box-two {
+    width: 33%;
+    height: 100%;
+    float: right;
+    padding: 0%;
+    margin: 0%;
+}
+.box-two-nav {
+    background-color: rgb(27, 85, 151);
+    color: white;
+    padding: 1% 2% 0% 2%;
+    width: 96%;
+}
+.box-two-nav h2 {
+    font-size: 20px;
+}
+.links-box-two {
+    display: inline-block;
+    width: 85%;
+    vertical-align: bottom;
+}
+.links-box-two a {
+    text-decoration: none;
+    color: white;
+}
+.us {
+    float: left;
+    background-color: rgb(52, 52, 90);
+    border-right: 1px solid rgb(206, 206, 206);
+    font-size: 16px;
+    padding: 2%;
+}
+.europe {
+    float: left;
+    background-color: rgb(52, 52, 90);
+    border-right: 1px solid rgb(206, 206, 206);
+    border-left: 1px solid rgb(206, 206, 206);
+    font-size: 16px;
+    padding: 2%;
+}
+.asia {
+    float: left;
+    background-color: rgb(52, 52, 90);
+    border-right: 1px solid rgb(206, 206, 206);
+    border-left: 1px solid rgb(206, 206, 206);   
+    font-size: 16px;
+    padding: 2%;
+}
+.sectors {
+    float: left;
+    background-color: rgb(52, 52, 90);
+    border-left: 1px solid rgb(206, 206, 206);
+    font-size: 16px;
+    padding: 2%;
+}
+.body-two {
+    padding: 2%;
+}
+.sponsored {
+    display: inline-block;
+    width: 100%;
+}
+.sponsored p {
+    font-size: 10px;
+    width: 30%;
+    padding-left: 6%;
+    float: left;
+}
+.trade-button {
+    width: 50%;
+    background-image: radial-gradient(rgba(255, 0, 0, 0.685), rgb(214, 25, 25));
+    border: transparent;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+}   
+.indices {
+    display: inline-block;
+    background-image: linear-gradient(rgba(0, 195, 255, 0.308),white);
+    border-radius: 4px;
+    width: 100%;
+    line-height: 1%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+.indices h3 {
+    font-size: 16px;
+    float: left;
+    background-color: transparent;
+    width: 40%;
+    padding-left: 4%;
+}
+.indices li {
+    float: right;
+    font-size: 14px;
+    background-color: transparent;
+    padding-right: 4%;
+    color: rgb(100, 89, 255);
+}
+.search-box-two {
+    border: 2px solid rgb(134, 134, 134);
+    width: 90%;
+    margin-left: 4%;
+    border-radius: 4px;
+    padding: 1%;
+}
+.search-box-sec {
+    border: transparent;
+    padding: 3%;
+    font-size: 12px;
+    width: 75%;
+}
+.search-button-two {
+    background-color: red;
+    float: right;
+    width: 23%;
+    font-size: 12px;
+    border: transparent;
+    margin-top: 4px;
+    padding: 1.5%;
+}
+.box-two-table-one {
+    text-align: left;
+    line-height: 300%;
+    margin-top: 4%;
+    font-size: 12px;
+    width: 100%;
+    font-weight: bold;
+    border-collapse: collapse;
+    
+}
+.box-two-table-one th{
+    background-image: linear-gradient(rgba(0, 195, 255, 0.192),white);
+    border-radius: 4px;
+}
+.box-two-table-one td{
+    background-image: linear-gradient(rgba(0, 195, 255, 0.192),white);
+    border-radius: 4px;
+}
+.box-two-table-one th {
+    color: blue;
+}
+.box-two-table-one .value-one {
+    font-size: 15px;
+}
+.box-two-table-one .value-two {
+    color: red;
+}
+.currencies {
+    display: inline-block;
+    background-image: linear-gradient(rgba(0, 195, 255, 0.308),white);
+    border-radius: 4px;
+    width: 100%;
+    line-height: 1%;
+    margin-top: 3%;
+}
+.currencies h3 {
+    font-size: 16px;
+    float: left;
+    background-color: transparent;
+    width: 40%;
+    padding-left: 4%;
+}
+.currencies li {
+    float: right;
+    font-size: 14px;
+    background-color: transparent;
+    padding-right: 4%;
+    color: rgb(100, 89, 255);
+}
+.box-two-table-two {
+    text-align: left;
+    line-height: 300%;
+    font-size: 12px;
+    width: 100%;
+    font-weight: bold;
+    border-collapse: collapse;
+    
+}
+.box-two-table-two th{
+    background-image: linear-gradient(rgba(0, 195, 255, 0.192),white);
+    border-radius: 4px;
+}
+.box-two-table-two td{
+    background-image: linear-gradient(rgba(0, 195, 255, 0.192),white);
+    border-radius: 4px;
+}
+.box-two-table-two th {
+    color: blue;
+}
+.box-two-table-two .value-three {
+    color: red;
+}
+.all-commodities {
+    display: inline-block;
+    background-image: linear-gradient(rgba(0, 195, 255, 0.308),white);
+    border-radius: 4px;
+    width: 100%;
+    line-height: 1%;
+    margin-top: 3%;
+}
+.all-commodities h3 {
+    font-size: 16px;
+    float: left;
+    background-color: transparent;
+    width: 40%;
+    padding-left: 4%;
+}
+.all-commodities li {
+    float: right;
+    font-size: 14px;
+    background-color: transparent;
+    padding-right: 4%;
+    color: rgb(100, 89, 255);
+}
+.box-two-table-three {
+    text-align: left;
+    line-height: 300%;
+    font-size: 12px;
+    width: 100%;
+    font-weight: bold;
+    border-collapse: collapse;
+    
+}
+.box-two-table-three th{
+    background-image: linear-gradient(rgba(0, 195, 255, 0.192),white);
+    border-radius: 4px;
+}
+.box-two-table-three td{
+    background-image: linear-gradient(rgba(0, 195, 255, 0.192),white);
+    border-radius: 4px;
+}
+.box-two-table-three th {
+    color: blue;
+}
+.box-two-table-three .gold-two {
+    color: rgb(64, 255, 47);
+}
+.box-two-table-three .gold-three {
+    color: rgb(64, 255, 47);
+}
